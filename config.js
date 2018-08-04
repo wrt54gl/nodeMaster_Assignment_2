@@ -31,10 +31,19 @@ config.menuItems = {
     'price': 11.67
   },
   'House':{
-    'description':'House Special -- whats left from yesterday. Supprisingly good',
+    'description':'House Special -- whats left from yesterday. Surprisingly good',
     'price': 9.78
   },
 }
 
+//Strip config
+config.stripAuth = 'sk_test_BQokikJOvBiI2HlWgH4olfQ2';
+config.currendy = 'CAD';
+
+//default sales tax rate in percent
+config.taxRate = 5;
+
+//comany name for emails
+config.companyName = "Road Kill Pizza";
 
 module.exports=config;
