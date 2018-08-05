@@ -37,8 +37,15 @@ config.menuItems = {
 }
 
 //Strip config
-config.stripAuth = 'sk_test_BQokikJOvBiI2HlWgH4olfQ2';
-config.currendy = 'CAD';
+config.stripeAuth = 'sk_test_BQokikJOvBiI2HlWgH4olfQ2';
+config.currency = 'cad';
+
+//Mailgun config
+config.mailGun = {
+  'key':'50c4b3652e723d871cde0779e4d35194-a5d1a068-6d24a31b',
+  'from':'Road Kill Pizza <road@kill.pizza.com>',
+  'domain':'sandbox3cc2362cdd364bd9a22821b6f6e04b5a.mailgun.org'
+};
 
 //default sales tax rate in percent
 config.taxRate = 5;
